@@ -1,7 +1,7 @@
 .title{
     font-size: 21pt;
     text-align: center;
-    height: 38px;
+    height: 29px;
     margin-top: 147px;
 }
 
@@ -22,6 +22,10 @@ div{
 }
 
 .activator {
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    position: fixed;
+    left: 50%;
     background-color: #f44336;
     border: none;
     height: 17px;
