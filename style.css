@@ -1,40 +1,33 @@
 .title{
     font-size: 21pt;
-    white-space: nowrap;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    position: absolute;
-    top: 200px;
-    left: 50%;
+    text-align: center;
+    height: 38px;
+    margin-top: 147px;
 }
 
 .description{
     font-size: 10pt;
-    white-space: nowrap;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    position: absolute;
-    top: 235px;
-    left: 50%
+    text-align: center;
+    height: 18px;
+    margin-top: 10px;
 }
 
-body{
+body {
     background-color: aqua;
 }
 
-.activator{
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    position: fixed;
-    top: 290px;
-    left: 50%;
+div{
+    text-align: center;
+    display: grid;
+}
+
+.activator {
     background-color: #f44336;
     border: none;
-    height: 25px;
+    height: 17px;
     width: 150px;
     font-size: 12pt;
     border: 3px solid black;
-
 }
 
 .activator:hover{
