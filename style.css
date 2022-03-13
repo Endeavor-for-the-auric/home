@@ -25,6 +25,7 @@ div{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     position: fixed;
+    top: 290px;
     left: 50%;
     background-color: #f44336;
     border: none;
