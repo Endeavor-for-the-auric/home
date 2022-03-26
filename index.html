@@ -1,20 +1,48 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset = "utf-8">
-        <meta name = "viewport" content = "width=device-width">
-        <title>Endeavor for the Auric|Guide</title>
-        <script src="jquery-1.10.2.min.js"></script>
-        <link href="style.css" rel = "stylesheet" type = "text/css" />
-    </head>
-    <body>
-        <div class = "intro-content">
-            <h1 class = "title">Endeavor for the Auric</h1>
-            <h4 class = "description">A guide for information and how to play our game</h4>
-            <button class = "activator">View our Website</button>
-
+<html lang="en-US">
+  <head>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width">
+    <meta name="description" content = "The home page for how to play 'Endeavor for the Auric' and also includes some information">
+    <title>Endeavor for the Auric | Guide</title>
+     <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link href="style.css" rel = "stylesheet" type = "text/css" />
+  </head>
+  <body>
+    <div class = "intro-content">
+      <p class = "title">Endeavor for the Auric Home</p>
+      <p class = "description">A guide for information and how to play our game</p>
+      <button class = "activator" onclick="startFunction()">View Page</button>
+    </div>
+    <div class = "navbars" id = "navbars">
+      <!-- Topnav -->
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#about">About</a>
+        <a href="#gameplay">Gameplay</a>
+        <a href="#social-media" class="right-align">Social Media</a>
+        <div class="container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
         </div>
-        <script src="script.js"></script>
-              
+      </div>
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <a class="active" href="#makers">The Makers</a>
+        <a href="#making">The Making</a>
+        <a href="#why-made">Why We Made It</a>
+        <a href="#about">Versions</a>
+      </div>
+      <!-- Page content -->
+      <div class="content">
+        <h1>The Game</h1>
+        <img src="logo.png" alt="Endeavor for the Auric logo" width="300px" height="300px"></img>
+      </div>
+    </div>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
     </body>
 </html>
