@@ -7,6 +7,7 @@
     <title>Endeavor for the Auric | Home</title>
      <link rel="icon" type="image/x-icon" href="favicon.png">
     <link href="style.css" rel = "stylesheet" type = "text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8X88FRWS81"></script>
 <script>
@@ -26,23 +27,28 @@
     <div class = "navbars" id = "navbars">
       <!-- Topnav -->
       <div class="topnav" id="myTopnav">
-        <a href="https://endeavor-for-the-auric.github.io/home/" class="active">Home</a>
+        <a href="https://endeavor-for-the-auric.github.io/home/" class="active">Tutorial</a>
+        
         <a href="https://endeavor-for-the-auric.github.io/news/">News</a>
         <a href="#about">About</a>
-        <a href="#gameplay">Gameplay</a>
-        <a href="#social-media" class="right-align">Social Media</a>
+        <div class="gameplay-dropdown">
+          <button class="gameplay-button">Gameplay
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="gameplay-content a-dropdown">
+            <a href="#items">Items</a>
+            <a href="#map">Map</a>
+            <a href="#monsters">Monsters</a>
+            <a href="#npcs">NPCs</a>
+          </div>
+        </div>
+        <a href="#download">Download</a>
+        <a href="#social-media" style="float:right">Social Media</a>
         <div class="container" onclick="myFunction(this)">
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
         </div>
-      </div>
-      <!-- Sidebar -->
-      <div class="sidebar">
-        <a class="active" href="#makers">The Makers</a>
-        <a href="#making">The Making</a>
-        <a href="#why-made">Why We Made It</a>
-        <a href="#about">Versions</a>
       </div>
       <!-- Page content -->
       <div class="content">
